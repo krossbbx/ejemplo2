@@ -9,10 +9,17 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <link href="estilo.css" rel="stylesheet" type="text/css">
         <title></title>
     </head>
     <body>
+        <p class="estilo02">UNO</p>
+        <p style="background: yellow;font-size: 25px">DOS</p>
+        <p class="estilo01">TRES</p>
+        
+        
         <?php
         echo "<br>";
         require "resultado.php";
